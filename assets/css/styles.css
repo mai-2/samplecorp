@@ -1431,11 +1431,11 @@ input[type="radio"]:checked + .form__sex::after {
 }
 
 .comments__item:nth-child(1)::before {
-  background: url(/assets/images/common/comments1.png) center center/contain no-repeat;
+  background: url(../images/common/comments1.png) center center/contain no-repeat;
 }
 
 .comments__item:nth-child(2)::before {
-  background: url(/assets/images/common/comments2.png) center center/contain no-repeat;
+  background: url(../images/common/comments2.png) center center/contain no-repeat;
 }
 
 .comments__item + .comments__item {
@@ -1461,7 +1461,7 @@ input[type="radio"]:checked + .form__sex::after {
 }
 
 .contact {
-  background: url(/assets/images/common/contact-bg.png) center center/cover;
+  background: url(../images/common/contact-bg.png) center center/cover;
   padding: 40px 16px;
   padding: 2.5rem 1rem;
 }
@@ -1510,7 +1510,7 @@ input[type="radio"]:checked + .form__sex::after {
 .contact__header::before {
   position: absolute;
   content: '';
-  background: url(/assets/images/common/contact.png) center center/cover no-repeat;
+  background: url(../images/common/contact.png) center center/cover no-repeat;
   display: block;
   width: 100%;
   height: 100%;
@@ -1680,7 +1680,7 @@ input[type="checkbox"]:checked + .contact__check::after {
 }
 
 .faq {
-  background-image: url(/assets/images/common/qa-bg.png);
+  background-image: url(../images/common/qa-bg.png);
   background-position: top center;
   background-size: cover;
   padding: 35px 16px 60px;
@@ -1739,7 +1739,7 @@ input[type="checkbox"]:checked + .contact__check::after {
 }
 
 .hero {
-  background-image: url(/assets/images/common/hero.png);
+  background-image: url(../images/common/hero.png);
   background-position: 24% center;
   background-size: cover;
   height: 667px;
@@ -2202,15 +2202,15 @@ input[type="checkbox"]:checked + .contact__check::after {
 }
 
 .service-item:nth-child(1) dt {
-  background-image: url(/assets/images/common/service1.svg);
+  background-image: url(../images/common/service1.svg);
 }
 
 .service-item:nth-child(2) dt {
-  background-image: url(/assets/images/common/service2.svg);
+  background-image: url(../images/common/service2.svg);
 }
 
 .service-item:nth-child(3) dt {
-  background-image: url(/assets/images/common/service3.svg);
+  background-image: url(../images/common/service3.svg);
 }
 
 @media screen and (min-width: 768px) {
